@@ -1,3 +1,7 @@
 body {
      background-image: url("../images/bulb_pattern250v3.png"); 
 }
+
+h1  {
+    color: red;
+}
