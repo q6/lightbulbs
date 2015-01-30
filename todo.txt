@@ -1,0 +1,6 @@
+site pages:
+    - make you own light bulb (webgl)
+    - history
+    - famous light bublbs
+    - ecosystem
+    - about
