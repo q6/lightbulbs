@@ -1,2 +1,14 @@
 Site features
 Home, History, Contact
+
+HOME:
+    - few paragraphs on the light bulbs
+    - a few pictures of light bulbs
+
+HISTORY:
+    - brief overview of the history of the light bulb
+
+CONTACT:
+
+    - some info on the creator of the site
+    - form for the user to fill out and submit their own light bulb
