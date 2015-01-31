@@ -2,3 +2,8 @@ body {
     font-family: Helvetica;
     background-image: url("images/halftone.png")
 }
+
+.footer {
+    background-color: #343232;
+    color: #D6D6D6;
+}
