@@ -1,4 +1,4 @@
-<!DOCTYPE html>]\\\
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -6,30 +6,37 @@
         <link type="text/css" rel="stylesheet" href="default.css">
     </head>
     <body>
-        <div class="header">
-            <img src="bulb100.png" title="Light Bulb Logo" alt="The logo for the light bulb site">
-            <h1>Light bulbs</h1>
-            <div class="nav">
-                <ul>
-                    <li><a href="index.html">Home</li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="contact.html"><b>Contact</b></a></li>
-                </ul>
+        <div id="body-content">
+            <div class="header">
+                <img src="bulb100.png" title="Light Bulb Logo" alt="The logo for the light bulb site">
+                <h1>Light bulbs</h1>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="contact.html"><b>Contact</b></a></li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Contact the author</h2>
+            <p>Would you like to submit your own light bulb design? You can do so here</p>
+            <div class="user-form">
+                <form
+                    <label for="name">Name of light bulb</label>
+                    <input id="name" type="text">
+                    
+                    <label for="description">Describe the light bulb</label>
+                    <textarea name="description" ></textarea>
+                    
+                    <label for="state">Does this light bulb actually exist?</label>
+                    <input type="radio" name="existence" value="true">Yes
+                    <input type="radio" name="existence" value="false">No
+                    </form>
+                </div>
             </div>
         </div>
-        <h2>Contact the author</h2>
-        <p>Would you like to submit your own light bulb design? You can do so here</p>
-        <div class="user-form">
-
-            <label for="name">Name of light bulb</label>
-            <input id="name" type="text">
-
-            <label for="description">Describe the light bulb</label>
-            <input type="textarea" id="description">
-
-            
-        </div>
-        <div class="footer">
+        
+        <div id="footer">
             <h2>Website created in HTML styled using CSS</h2>
         </div>
     </body>

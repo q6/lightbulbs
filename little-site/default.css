@@ -1,9 +1,36 @@
 body {
     font-family: Helvetica;
-    background-image: url("images/halftone.png")
+    background-image: url("images/halftone.png");
 }
 
-.footer {
+#body-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    display: block;
+    padding: 10px 0 10px 0;
+    margin-top: 40px;
+    text-align: center;
+    border: 3px solid red;
     background-color: #343232;
     color: #D6D6D6;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin-top: 5px
+}
+
+textarea {
+    width: 300px;
+    height: 50px;
 }
